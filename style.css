@@ -1,0 +1,25 @@
+/* Center all content */
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+  background-color: #f0f0f0;
+}
+
+/* Style for the reaction box */
+#box {
+        width: 100px;
+      height: 100px;
+      background-color: blue;
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      cursor: pointer;
+
+}
+
+/* Instruction and result text */
+#instructions, #result {
+  font-size: 18px;
+  margin: 10px;
+}
