@@ -9,8 +9,7 @@
     } else {
       const endTime = Date.now();
       const seconds = ((endTime - startTime) / 1000).toFixed(2);
-      result.innerText = `You clicked after ${seconds} seconds.`;
-      startTime = null; // Reset for next click
+      alert(seconds)
     }
     // Generate random top and left positions
     const newTop = Math.floor(Math.random() * (window.innerHeight - 100));
